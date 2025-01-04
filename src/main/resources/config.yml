@@ -1,0 +1,13 @@
+language:
+  commands:
+    # Эти сообщения не поддерживают что-то кроме legacy формата
+    invalid-args-count: '§cОшибка, неверное кол-во аргументов!'
+    only-for-players: '§cЭта команда только для игроков!'
+    player-not-found: '§cИгрок не найден.'
+
+# Только MySQL
+mysql:
+  host: ''
+  database: ''
+  user: ''
+  pass: ''
