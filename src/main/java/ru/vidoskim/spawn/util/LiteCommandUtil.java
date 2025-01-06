@@ -16,7 +16,7 @@ public class LiteCommandUtil {
     public LiteCommands<CommandSender> create(Object... commands) {
         return LiteBukkitFactory.builder()
                 .settings(settings -> settings
-                        .fallbackPrefix("sticks")
+                        .fallbackPrefix("spawn")
                         .nativePermissions(true)
                 )
                 .commands(commands)
